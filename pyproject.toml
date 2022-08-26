@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-tailwind-setup"
+version = "0.1.0"
+description = ""
+authors = ["Alex Morega <alex@grep.ro>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+Django = "^4.1"
+django-tailwind = "^3.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

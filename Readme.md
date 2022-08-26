@@ -5,3 +5,8 @@
     python3 -m venv .venv
     source .venv/bin/activate
     ```
+2. Install dependencies:
+    ```shell
+    pip install poetry
+    poetry install
+    ```
