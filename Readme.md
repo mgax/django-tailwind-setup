@@ -10,3 +10,7 @@
     pip install poetry
     poetry install
     ```
+3. Install Tailwind Node dependencies:
+    ```shell
+    ./manage.py tailwind install
+    ```
