@@ -19,3 +19,8 @@
     ./manage.py migrate
     ./manage.py runserver
     ```
+5. In another console, start Tailwind:
+    ```shell
+    source .venv/bin/activate
+    ./manage.py tailwind start
+    ```
