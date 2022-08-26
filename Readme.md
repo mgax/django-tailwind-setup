@@ -14,3 +14,8 @@
     ```shell
     ./manage.py tailwind install
     ```
+4. Start Django:
+    ```shell
+    ./manage.py migrate
+    ./manage.py runserver
+    ```
